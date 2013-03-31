@@ -1,0 +1,1065 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cla",
+				"class_mask"
+			],
+			[
+				"www",
+				"www-data"
+			],
+			[
+				"ex",
+				"exclude"
+			],
+			[
+				"exc",
+				"excludeopts"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"user",
+				"userdata"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"pane",
+				"paneurl"
+			],
+			[
+				"this",
+				"thisurl"
+			],
+			[
+				"url",
+				"urlmapmerge"
+			],
+			[
+				"_",
+				"_reloadPane"
+			],
+			[
+				"ch",
+				"changed_keys"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"loa",
+				"loadPane"
+			],
+			[
+				"for",
+				"forEach  (variable)"
+			],
+			[
+				"push",
+				"pushHisitory"
+			],
+			[
+				"sub",
+				"submitButton"
+			],
+			[
+				"pre",
+				"preventDefault"
+			],
+			[
+				"sele",
+				"selectString"
+			],
+			[
+				"opt",
+				"optgroup"
+			],
+			[
+				"option",
+				"optionString"
+			],
+			[
+				"more_",
+				"more_description"
+			],
+			[
+				"json",
+				"json_decode"
+			],
+			[
+				"pager",
+				"pagerkeys"
+			],
+			[
+				"viw",
+				"viewoptions"
+			],
+			[
+				"rep",
+				"replaceWith  (function)"
+			],
+			[
+				"print",
+				"printhtml"
+			],
+			[
+				"debug",
+				"debug_print_backtrace"
+			],
+			[
+				"ge",
+				"generateSectionName  (function)"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"foll",
+				"followControlView  (class)"
+			],
+			[
+				"getse",
+				"getSelectQuery"
+			],
+			[
+				"full",
+				"cache_full_name"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"count_",
+				"count_shown"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"span",
+				"span"
+			],
+			[
+				"si",
+				"sizeLimit"
+			],
+			[
+				"new",
+				"newButton"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_assoc"
+			],
+			[
+				"mysql_re",
+				"mysql_real_escape_string"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"getFo",
+				"getFollowCounts"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"form",
+				"Format: Php"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 191.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/lasse/6372-4657/autorun.inf",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/South African Heart Disease Data/pca.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/South African Heart Disease Data/loaddata.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_3_3.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_3_2.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_3_1.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_2_2.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_2_1.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_1_1.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_3_4.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_3_5.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_3_5 (Lasse Valentini Jensen's conflicted copy 2013-03-01).py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex2_1_2.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex2_1_3.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex2_1_4.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex2_1_5.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex2_2_1.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex2_2_2.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex2_2_3.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex2_2_4.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex2_2_4 (Lasse Valentini Jensen's conflicted copy 2013-03-01).py",
+		"/media/Skarnet/Serier/Community/Season 4",
+		"/home/lasse/Code/Web/Smileyweb/www/js/loggedin.min.js",
+		"/home/lasse/Code/Web/Smileyweb/build/project.xml",
+		"/home/lasse/Code/Web/Smileyweb/build/config/project.properties",
+		"/home/lasse/Code/Web/Smileyweb/intermediate/js/plugins/_all.js",
+		"/home/lasse/Code/Web/Smileyweb/www/system/classes/thumbControlView.php",
+		"/home/lasse/Code/Web/Smileyweb/www/js/loggedin/main.js",
+		"/home/lasse/Code/Web/Smileyweb/www/pages/mine-serier/samling/forside.h.php",
+		"/home/lasse/Code/Web/Smileyweb/www/pages/mine-serier/samling/banner.h.php",
+		"/home/lasse/Code/Web/Smileyweb/publish/js/5b0a119/_all.js",
+		"/home/lasse/Code/Web/Smileyweb/www/system/classes/uploadControlViewList.php",
+		"/home/lasse/Code/Web/Smileyweb/publish/css/846b087.css",
+		"/home/lasse/Code/Web/Smileyweb/www/css/print.css",
+		"/home/lasse/Code/Web/Smileyweb/publish/system/buildconfig.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/imagingGD.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/imagingAbstract.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/pager.php",
+		"/home/lasse/Code/Web/Smileyweb/system/plugins/comic/editArticle.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/users.php",
+		"/home/lasse/Code/Web/Smileyweb/system/config.php",
+		"/home/lasse/Code/Web/Smileyweb/system/uploads/userimage/process.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/serier/brugere.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/serier/brugere.h.php",
+		"/home/lasse/Code/Web/Smileyweb/js/plugins/jquery.sw.searchControlView.js",
+		"/home/lasse/Code/Web/Smileyweb/pages/forside.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/imagingIM.php",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_4_1.py",
+		"/home/lasse/Documents/DTU/10. Semester/02450 Intro til Machine Learning/02450Toolbox_Python/Scripts/ex3_4_2.py",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/imaging.php",
+		"/home/lasse/Code/Web/Smileyweb/system/plugins/news/editArticle.php",
+		"/home/lasse/Code/Web/Smileyweb/system/functions/strings.php",
+		"/home/lasse/Code/Web/Smileyweb/system/lib/markdown.php",
+		"/home/lasse/Code/Web/Smileyweb/system/core/coreAction.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/markdownHandler.php",
+		"/home/lasse/Code/Web/Smileyweb/system/plugins/forum/comment_editor.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/core/comment_editor.php",
+		"/home/lasse/Code/Web/Smileyweb/system/init/comment_editor.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/forum/comment_editor.php",
+		"/home/lasse/Code/Web/Smileyweb/system/core/newComment.php",
+		"/home/lasse/Code/Web/Smileyweb/system/core/newArticle.php",
+		"/home/lasse/Code/Web/Smileyweb/system/core/editComment.php",
+		"/home/lasse/Code/Web/Smileyweb/system/core/editArticle.php",
+		"/home/lasse/Desktop/markdown.php",
+		"/home/lasse/Code/Web/Smileyweb/system/init/article_editor.php",
+		"/home/lasse/Downloads/name.txt",
+		"/home/lasse/Documents/Haven/Netværk/haven IP adresser.txt",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/listView.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/serier/tegneserier.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/frontpageView.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/serier/tegneserier.h.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/serier.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/serier/kommentarer.php",
+		"/home/lasse/Code/Web/Smileyweb/js/plugins/jquery.sw.frontpageColumnHelper.js",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier/samling/badge.php",
+		"/home/lasse/Code/Web/Smileyweb/design/bottom.php",
+		"/home/lasse/Code/Web/Smileyweb/set/setFrontpageColumn.php",
+		"/home/lasse/Code/Web/Smileyweb/js/plugins/jquery.sw.pagerHelper.js",
+		"/home/lasse/Code/Web/Smileyweb/js/main.js",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/articles.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/loginView.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/items.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/serier.h.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/admin/tegneserier.h.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/comicsView.php",
+		"/home/lasse/Code/Web/Smileyweb/js/libs/history.js",
+		"/home/lasse/Code/Web/Smileyweb/js/jquery.sw.uploadControlViewList.js",
+		"/home/lasse/Code/Web/Smileyweb/pages/bruger/følg.php",
+		"/home/lasse/Code/Web/Smileyweb/docs/Config filer/prepare-server.sh",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier/samling/overblik.h.php",
+		"/home/lasse/Code/Web/Smileyweb/docs/Config filer/nginx_default",
+		"/home/lasse/Code/Web/Smileyweb/js/plugins/Find Results",
+		"/home/lasse/Code/Web/Smileyweb/system/plugins/comic/article_edit.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/serier/kommentarer.h.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/comments.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier/kommentarer.php",
+		"/home/lasse/Code/Web/Smileyweb/set.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier/liste.h.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier.h.php",
+		"/home/lasse/Code/Web/Smileyweb/get/articles.php",
+		"/home/lasse/Code/Web/Smileyweb/get/comments.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/commentsListView.php",
+		"/home/lasse/Code/Web/Smileyweb/get/commentslist.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/ratingsTypesControlView.php",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/ratings.php",
+		"/home/lasse/Code/Web/Smileyweb/system/templates/comic/altingboy/t_index.php",
+		"/home/lasse/Code/Web/Smileyweb/system/templates/comic/altingboy/t_index.h.php",
+		"/home/lasse/Code/Web/Smileyweb/system/plugins/comic/editSection.php",
+		"/home/lasse/Code/Web/Smileyweb/system/templates/comic/altingboy/options.php",
+		"/home/lasse/Code/Web/Smileyweb/system/templates/comic/posterboy/options.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier/samling/forside.php",
+		"/home/lasse/Code/Web/Smileyweb/system/core/editSectionMetadata.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier/samling/forside.h.php",
+		"/home/lasse/Code/Web/Smileyweb/system/templates/comic/t_article.php",
+		"/home/lasse/.cache/.fr-4PmCi7/history.js-master/scripts/bundled/html5/jquery.history.js",
+		"/home/lasse/.cache/.fr-PlFr1x/history.js-master/scripts/uncompressed/history.js",
+		"/home/lasse/.cache/.fr-AcGMnv/history.js-master/scripts/compressed/json2.js",
+		"/home/lasse/.cache/.fr-yVNErX/history.js-master/tests/tests.js",
+		"/home/lasse/.cache/.fr-Uu9gwA/history.js-master/scripts/bundled/html5/jquery.history.js",
+		"/home/lasse/Code/Web/Smileyweb/system/classes/ratingsControlView.php",
+		"/home/lasse/Code/Web/Smileyweb/docs/Muligheder til forsidekolonner.txt",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier/liste.php",
+		"/home/lasse/Code/Web/Smileyweb/pages/mine-serier/kommentarer.h.php",
+		"/home/lasse/Code/Web/Smileyweb/get/forum.php",
+		"/home/lasse/Code/Web/Smileyweb/css/scss/_forside.scss",
+		"/home/lasse/Code/Web/Smileyweb/css/scss/_pager.scss",
+		"/home/lasse/Code/Web/Smileyweb/get/comics.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"-*.css,-*.min.js",
+			"-*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"jquery.imageselect",
+			"\\*",
+			"\\*\\*",
+			"**",
+			",",
+			"tags']",
+			"headtags",
+			"bottomtags",
+			"imgarea",
+			"iimgarea",
+			"areas",
+			"area",
+			"modules/.*\\.js",
+			"modules/",
+			"qq.FineUploaderBasic.prototype._onSubmit.apply(this,arguments);",
+			"<div class=\"progressbar small indeterminate\">",
+			"progressbar small indeterminate\"><div class=\"value\"><span></span></div></div><span class=\"size small transparent\">Venter\\u2026</span><span class=\"message\"></spa",
+			"editseries.forside",
+			"editseries.banner",
+			"jquery.sw.uploadControlViewList",
+			"jquery.fineuploader.",
+			"fineuploader.",
+			"fineupload.",
+			");\n",
+			"enforceMaxWidth",
+			"is_online",
+			"dimmed",
+			"htmlspecialchars",
+			"code",
+			"lib/",
+			"identify_modifier_markdown",
+			"smarty_modifier_markdown",
+			"&sort",
+			"redaktionens_favoritter",
+			"window.onpopstate",
+			"window.onp",
+			"popsta",
+			"pagerHelper\\(['\"]option",
+			"pagerHelper\\(['\"option",
+			"no_refresh",
+			"pagerHelper\\(['\"]option",
+			"pagerHelper(\"option\"",
+			"pushHisitory",
+			"paneurl",
+			"urloptions",
+			"PaneUrl",
+			"createU",
+			"contentWidgets",
+			"state",
+			"json",
+			"comicsview_sub3",
+			"layout_bg_color",
+			"urlm",
+			"_POST",
+			"$userdata['pref_frontpage_columns']",
+			"}",
+			"{",
+			":",
+			"user_follows",
+			"callback",
+			"pagerHelper(",
+			"pagerHelper('option",
+			"pagerHelper('option'",
+			"foott",
+			".imageselect ul",
+			"name",
+			"$user",
+			"\necho $deb++.\" - \".is_array($user);",
+			"user",
+			"global.*\\$user[, ;]",
+			"user",
+			"\\$user[ =]",
+			"\\$user[^d]",
+			"$user",
+			"user",
+			"getus",
+			"opt_customtemplate",
+			"opt_feeds",
+			"opt_files",
+			"opt_schedule",
+			"_post_join",
+			"get_.*_post_join",
+			"get_'_post_join",
+			"get_next_post_join",
+			"apply_filters",
+			"convert_mysql_result_to_array",
+			" \n",
+			":\n",
+			"\n",
+			"comicviewer",
+			"request",
+			"sort",
+			"setThingInJSONEncodedArray",
+			"count",
+			"[\"']count[\"'] *=> *[\"']only[\"']",
+			"'count' *=> *'only'",
+			"followitems",
+			"html.js .editcomic",
+			".fold",
+			"#content",
+			"_dblog",
+			"opt_ignore_article_url_names",
+			"generateArticleName",
+			"bannerview",
+			"bannerWiev",
+			"followControlView",
+			"shu%",
+			"shu&",
+			"full_name",
+			"_.",
+			" ",
+			" | ",
+			"  ",
+			"'dir'",
+			"dir",
+			"tegneserier",
+			"comics",
+			"articles",
+			"comics",
+			"tegneserier",
+			"opt",
+			"followcontrolview",
+			"follow",
+			"options",
+			"comicsView",
+			"icons",
+			"icon",
+			"markAsRead"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\\*",
+			"\\*\\*",
+			"\",\"",
+			"?sort",
+			"_REQUEST",
+			"$columns",
+			")",
+			"array(",
+			"=>",
+			"$meta_user",
+			"",
+			"l%",
+			"_",
+			"|",
+			" | ",
+			"brugere",
+			"users",
+			"brugere",
+			".escape_string($section).",
+			"\"",
+			"",
+			", ",
+			") {",
+			" 230px",
+			"    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.486618004866,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 382.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"conn",
+				"system/site/connection.php"
+			],
+			[
+				"thum",
+				"system/classes/thumbControlView.php"
+			],
+			[
+				"ima",
+				"system/classes/imagingGD.php"
+			],
+			[
+				"imagi",
+				"system/classes/imaging.php"
+			],
+			[
+				"process",
+				"system/uploads/userimage/process.php"
+			],
+			[
+				"pager",
+				"system/classes/pager.php"
+			],
+			[
+				"users",
+				"system/classes/users.php"
+			],
+			[
+				"brugere",
+				"pages/serier/brugere.php"
+			],
+			[
+				"plugins/n",
+				"system/plugins/news/editArticle.php"
+			],
+			[
+				"search",
+				"js/plugins/jquery.sw.searchControlView.js"
+			],
+			[
+				"for",
+				"pages/forside.php"
+			],
+			[
+				"comment_ed",
+				"system/plugins/forum/comment_editor.php"
+			],
+			[
+				"comment_",
+				"pages/core/comment_editor.php"
+			],
+			[
+				"str",
+				"system/functions/strings.php"
+			],
+			[
+				"confi",
+				"system/config.php"
+			],
+			[
+				"mark",
+				"system/classes/markdownHandler.php"
+			],
+			[
+				"article_",
+				"system/init/article_editor.php"
+			],
+			[
+				"corea",
+				"system/core/coreAction.php"
+			],
+			[
+				"login",
+				"system/classes/loginView.php"
+			],
+			[
+				"komme",
+				"pages/serier/kommentarer.php"
+			],
+			[
+				"bru",
+				"pages/serier/brugere.php"
+			],
+			[
+				"ser",
+				"pages/serier.php"
+			],
+			[
+				"seri",
+				"pages/serier.h.php"
+			],
+			[
+				"tegn",
+				"pages/serier/tegneserier.h.php"
+			],
+			[
+				"item",
+				"system/classes/items.php"
+			],
+			[
+				"comic",
+				"system/classes/comicsView.php"
+			],
+			[
+				"artic",
+				"system/classes/articles.php"
+			],
+			[
+				"main",
+				"js/main.js"
+			],
+			[
+				"view",
+				"system/classes/listView.php"
+			],
+			[
+				"fors",
+				"pages/forside.php"
+			],
+			[
+				"setfr",
+				"set/setFrontpageColumn.php"
+			],
+			[
+				"tegne",
+				"pages/admin/tegneserier.h.php"
+			],
+			[
+				"bott",
+				"design/bottom.php"
+			],
+			[
+				"badg",
+				"pages/mine-serier/samling/badge.php"
+			],
+			[
+				"alting",
+				"system/templates/comic/altingboy/t_index.h.php"
+			],
+			[
+				"optio",
+				"system/templates/comic/altingboy/options.php"
+			],
+			[
+				"option",
+				"system/templates/comic/posterboy/options.php"
+			],
+			[
+				"t_",
+				"system/templates/comic/t_article.php"
+			],
+			[
+				"rati",
+				"system/classes/ratings.php"
+			],
+			[
+				"ratii",
+				"system/classes/ratingsTypesControlView.php"
+			],
+			[
+				"edita",
+				"system/plugins/comic/editArticle.php"
+			],
+			[
+				"comm",
+				"get/commentslist.php"
+			],
+			[
+				"commentsv",
+				"system/classes/commentsListView.php"
+			],
+			[
+				"comments",
+				"get/comments.php"
+			],
+			[
+				"comments.php",
+				"system/classes/comments.php"
+			],
+			[
+				"lis",
+				"pages/mine-serier/liste.php"
+			],
+			[
+				"min",
+				"pages/mine-serier.h.php"
+			],
+			[
+				"komm",
+				"pages/mine-serier/kommentarer.h.php"
+			],
+			[
+				"list",
+				"pages/mine-serier/liste.h.php"
+			],
+			[
+				"mine",
+				"pages/mine-serier.php"
+			],
+			[
+				"kommen",
+				"pages/mine-serier/kommentarer.php"
+			],
+			[
+				"over",
+				"pages/mine-serier/samling/overblik.h.php"
+			],
+			[
+				"serier/",
+				"pages/serier/kommentarer.h.php"
+			],
+			[
+				"art",
+				"system/classes/articles.php"
+			],
+			[
+				"set",
+				"set.php"
+			],
+			[
+				"get/",
+				"get/forum.php"
+			],
+			[
+				"pagerhe",
+				"js/plugins/jquery.sw.pagerHelper.js"
+			],
+			[
+				"sø",
+				"pages/søg.php"
+			],
+			[
+				"soeg",
+				"pages/serier/soeg.php"
+			],
+			[
+				"botto",
+				"design/bottom.php"
+			],
+			[
+				"listv",
+				"system/classes/listView.php"
+			],
+			[
+				"set.",
+				"set.php"
+			],
+			[
+				"conf",
+				"system/config.php"
+			],
+			[
+				"articl_",
+				"system/plugins/comic/article_edit.php"
+			],
+			[
+				"login_",
+				"design/modules/login_popup.php"
+			],
+			[
+				"searc",
+				"system/classes/searchControlView.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"core",
+				"system/core/core.php"
+			],
+			[
+				"res",
+				"system/site/resolve.php"
+			],
+			[
+				"om",
+				"pages/om.php"
+			],
+			[
+				"meta",
+				"pages/meta.php"
+			],
+			[
+				"t",
+				"design/top.php"
+			],
+			[
+				"top",
+				"design/top.php"
+			],
+			[
+				"uploads",
+				"system/classes/uploads.php"
+			],
+			[
+				"articles",
+				"system/classes/articles.php"
+			],
+			[
+				"t_inde",
+				"system/templates/comic/t_index.php"
+			],
+			[
+				"serier",
+				"pages/serier.h.php"
+			],
+			[
+				"arti",
+				"system/classes/articles.php"
+			],
+			[
+				"ite",
+				"system/classes/items.php"
+			],
+			[
+				"jed",
+				"system/classes/jed.php"
+			],
+			[
+				"_",
+				"css/scss/_uploadsControlView.scss"
+			],
+			[
+				"t_index.h.",
+				"system/templates/comic/standardboy/t_index.h.php"
+			],
+			[
+				"dates",
+				"system/classes/dates.php"
+			],
+			[
+				"ny-",
+				"pages/mine-serier/ny-tegneserie.php"
+			],
+			[
+				"sess",
+				"system/site/sessions.php"
+			],
+			[
+				"forum/edit",
+				"pages/forum/editor.php"
+			],
+			[
+				"newar",
+				"system/plugins/forum/newArticle.php"
+			],
+			[
+				"edits",
+				"system/plugins/comic/editSection.php"
+			],
+			[
+				"follo",
+				"system/classes/followControlView.php"
+			],
+			[
+				"_ele",
+				"css/scss/_elements.scss"
+			],
+			[
+				"banner",
+				"system/classes/bannerView.php"
+			],
+			[
+				"uplo",
+				"system/classes/uploadProgressHandler.php"
+			],
+			[
+				"editser",
+				"css/scss/_editseries.scss"
+			],
+			[
+				"admin/bru",
+				"pages/admin/brugere.php"
+			],
+			[
+				"liste.",
+				"pages/mine-serier/liste.php"
+			],
+			[
+				"comics",
+				"system/classes/comicsView.php"
+			],
+			[
+				"komment",
+				"pages/serier/kommentarer.php"
+			],
+			[
+				"templates/forum/",
+				"system/templates/forum/t_article.h.php"
+			],
+			[
+				"liste",
+				"pages/mine-serier/liste.php"
+			],
+			[
+				"venter.p",
+				"pages/mine-serier/venter.h.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true
+}
