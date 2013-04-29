@@ -7,6 +7,10 @@ from poplib import error_proto
 from pprint import pprint
 
 
+def removeNonAscii(s):
+    return "".join(i for i in s if ord(i)<128)
+
+
 class Maildaemon(threading.Thread):
     def __init__(self, protocol, server, port, username, password, destination, error_handler):
         super(Maildaemon, self).__init__()
@@ -110,15 +114,23 @@ class MailFetcher(object):
             msg = email.message_from_string("\n".join(text))
             del text
 
+            from_ = msg.get_header("From")
+            print from_
+            from_ = u"Åge jensen".decode("utf-8")
             for part in msg.walk():
                 if "image" in part.get_content_type():
                     file_data = part.get_payload(decode=True)
                     if file_data:
-                        filename = unicode(decode_header(part.get_filename())[0][0])
-                        print repr(filename)
-                        # TODO: Der er en unicode fejl her!
-                        dest_file = os.path.join(self.destination,
-                                                 u"{time} {filename}".format(time=time.strftime("%y-%m-%d %H:%M:%S"), filename=filename))
+                        # filename = unicode(decode_header(part.get_filename())[0][0])
+                        # print repr(filename)
+
+                        try:
+                            dest_file = os.path.join(self.destination,
+                                                     u"{time} {filename}".format(time=time.strftime("%y-%m-%d %H:%M:%S"), filename=from_))
+                        except:
+                            dest_file = os.path.join(self.destination,
+                                                     u"{time} {filename}".format(time=time.strftime("%y-%m-%d %H:%M:%S"), filename=removeNonAscii(from_)))
+
 
                         with open(dest_file, "wb") as f:
                             f.write(file_data)

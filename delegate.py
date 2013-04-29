@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import maildaemon
-from poplib import error_proto
 # from pprint import pprint
 
 
@@ -23,7 +22,7 @@ class GuiDelegate(object):
             self.maildaemon = maildaemon.Maildaemon(protocol=str(ui.protocolComboBox.currentText()),
                                                     server=str(ui.serverInput.text()),
                                                     port=int(ui.serverPortInput.text()),
-                                                    username=str(ui.usernameInput.text()),
+                                                    username=unicode(ui.usernameInput.text()),
                                                     password=unicode(ui.passwordInput.text()),
                                                     destination=unicode(self.folder_path),
                                                     error_handler=self.main_window.reset)
