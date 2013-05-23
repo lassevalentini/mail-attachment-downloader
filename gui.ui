@@ -18,7 +18,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Mail attachment downloader</string>
+   <string>Mail attachment downloader 2000</string>
   </property>
   <property name="windowIcon">
    <iconset resource="resources.qrc">
@@ -83,21 +83,6 @@
            <string>pop3 ssl</string>
           </property>
          </item>
-         <item>
-          <property name="text">
-           <string>pop3</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>imap ssl</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>imap</string>
-          </property>
-         </item>
         </widget>
        </item>
       </layout>
@@ -122,11 +107,7 @@
         <number>0</number>
        </property>
        <item row="0" column="0">
-        <widget class="QLineEdit" name="usernameInput">
-         <property name="text">
-          <string>fraekkert.mail.dump</string>
-         </property>
-        </widget>
+        <widget class="QLineEdit" name="usernameInput"/>
        </item>
       </layout>
      </widget>

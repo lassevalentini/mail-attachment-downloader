@@ -1,15 +1,18 @@
 # -*- coding: utf-8 -*-
 
 import threading
+from thread import interrupt_main
 import time
 import os
 from poplib import error_proto
 from pprint import pprint
 
-
 def removeNonAscii(s):
     return "".join(i for i in s if ord(i)<128)
 
+def removeNonWindows(s):
+    allowed = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-.1234567890"
+    return "".join(i if i in allowed else "-" for i in s)
 
 class Maildaemon(threading.Thread):
     def __init__(self, protocol, server, port, username, password, destination, error_handler):
@@ -17,13 +20,16 @@ class Maildaemon(threading.Thread):
         self.running = False
         self.fetcher = MailFetcher(protocol, server, port, username, password, destination)
         self.error_handler = error_handler
+        self.daemon=True # Close when main thread ends
         # self.port = port
         # self.username = username
         # self.password = password
 
     def stop(self):
         self.running = False
-        super(Maildaemon, self).interrupt_main()
+        # super(Maildaemon, self).interrupt_main()
+        # interrupt_main()
+        # self.notify()
 
     def run(self):
         """
@@ -33,19 +39,19 @@ class Maildaemon(threading.Thread):
         self.running = True
 
         try:
-            self.fetcher.connect()
-        except error_proto, e:
-            self.running = False
-            if "-ERR [AUTH]" in e.message:
-                self.error_handler("Error connecting to server - check username and password")
-            else:
-                print e.message
-                self.error_handler("Error connecting to server - check server address and port")
-
-        try:
             while self.running:
+                try:
+                    self.fetcher.connect()
+                except error_proto, e:
+                    self.running = False
+                    if "-ERR [AUTH]" in e.message:
+                        self.error_handler("Error connecting to server - check username and password")
+                    else:
+                        print e.message
+                        self.error_handler("Error connecting to server - check server address and port")
                 self.fetcher.fetch()
-                time.sleep(10)
+                self.fetcher.quit()
+                time.sleep(30)
         except KeyboardInterrupt:
             self.running = False
 
@@ -91,6 +97,8 @@ class MailFetcher(object):
             self.connection.user(self.username)
             self.connection.pass_(self.password)
 
+    def quit(self):
+        self.connection.quit()
 
     def fetch(self):
         # Will be overwritten by one of the following two under construction
@@ -103,33 +111,39 @@ class MailFetcher(object):
         numMessages = len(mails[1])
         print "new messages:",numMessages
         for i in range(numMessages):
+            print "getting message "+str(i+1)
             text = []
-            # l = 0
+
             for line in self.connection.retr(i+1)[1]:
-                # l+=1
-                # if l < 50:
-                #     print line
-                text.append(line.decode("utf8"))
+                text.append(line)
+
+            # Mark message for deletion
+            self.connection.dele(i+1)
 
             msg = email.message_from_string("\n".join(text))
             del text
 
-            from_ = msg.get_header("From")
-            print from_
-            from_ = u"Åge jensen".decode("utf-8")
+            from_ = msg["From"]
+            print "From: "+from_
             for part in msg.walk():
                 if "image" in part.get_content_type():
                     file_data = part.get_payload(decode=True)
                     if file_data:
                         # filename = unicode(decode_header(part.get_filename())[0][0])
                         # print repr(filename)
+                        mime = part.get_content_type()
+                        extension = mime[mime.find("/")+1:]
 
                         try:
                             dest_file = os.path.join(self.destination,
-                                                     u"{time} {filename}".format(time=time.strftime("%y-%m-%d %H:%M:%S"), filename=from_))
-                        except:
+                                                     u"{time} {filename}.{extension}".format(time=time.strftime("%y-%m-%d %H-%M-%S"),
+                                                        filename=removeNonWindows(from_),
+                                                        extension=removeNonWindows(extension)))
+                        except: # Hacky way to deal with unicode
                             dest_file = os.path.join(self.destination,
-                                                     u"{time} {filename}".format(time=time.strftime("%y-%m-%d %H:%M:%S"), filename=removeNonAscii(from_)))
+                                                     u"{time} {filename}.{extension}".format(time=time.strftime("%y-%m-%d %H:%M:%S"),
+                                                        filename=removeNonAscii(from_),
+                                                        extension=removeNonWindows(extension)))
 
 
                         with open(dest_file, "wb") as f:
@@ -145,6 +159,6 @@ class MailFetcher(object):
 if __name__ == "__main__":
     import getpass
     print "Starting"
-    test = MailFetcher("pop3 ssl", "pop.gmail.com", 995, "fraekkert.mail.dump", getpass.getpass("Password: "), "")
+    test = MailFetcher("pop3 ssl", raw_input("Server: "), 995, raw_input("Username: "), getpass.getpass("Password: "), "")
     print "connected, fetching"
     test.fetch()

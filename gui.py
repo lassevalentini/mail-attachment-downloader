@@ -2,8 +2,8 @@
 
 # Form implementation generated from reading ui file 'gui.ui'
 #
-# Created: Mon Apr 22 23:08:40 2013
-#      by: PyQt4 UI code generator 4.9.3
+# Created: Fri May 17 09:18:58 2013
+#      by: PyQt4 UI code generator 4.10
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -12,7 +12,16 @@ from PyQt4 import QtCore, QtGui
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
-    _fromUtf8 = lambda s: s
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -57,9 +66,6 @@ class Ui_MainWindow(object):
         self.gridLayout_2.addWidget(self.serverPortInput, 0, 2, 1, 1)
         self.protocolComboBox = QtGui.QComboBox(self.groupBox)
         self.protocolComboBox.setObjectName(_fromUtf8("protocolComboBox"))
-        self.protocolComboBox.addItem(_fromUtf8(""))
-        self.protocolComboBox.addItem(_fromUtf8(""))
-        self.protocolComboBox.addItem(_fromUtf8(""))
         self.protocolComboBox.addItem(_fromUtf8(""))
         self.gridLayout_2.addWidget(self.protocolComboBox, 0, 0, 1, 1)
         self.verticalLayout_7.addWidget(self.groupBox)
@@ -130,18 +136,14 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QtGui.QApplication.translate("MainWindow", "Mail attachment downloader", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox.setTitle(QtGui.QApplication.translate("MainWindow", "Server", None, QtGui.QApplication.UnicodeUTF8))
-        self.serverInput.setText(QtGui.QApplication.translate("MainWindow", "pop.gmail.com", None, QtGui.QApplication.UnicodeUTF8))
-        self.protocolComboBox.setItemText(0, QtGui.QApplication.translate("MainWindow", "pop3 ssl", None, QtGui.QApplication.UnicodeUTF8))
-        self.protocolComboBox.setItemText(1, QtGui.QApplication.translate("MainWindow", "pop3", None, QtGui.QApplication.UnicodeUTF8))
-        self.protocolComboBox.setItemText(2, QtGui.QApplication.translate("MainWindow", "imap ssl", None, QtGui.QApplication.UnicodeUTF8))
-        self.protocolComboBox.setItemText(3, QtGui.QApplication.translate("MainWindow", "imap", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox_2.setTitle(QtGui.QApplication.translate("MainWindow", "Username", None, QtGui.QApplication.UnicodeUTF8))
-        self.usernameInput.setText(QtGui.QApplication.translate("MainWindow", "fraekkert.mail.dump", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox_3.setTitle(QtGui.QApplication.translate("MainWindow", "Password", None, QtGui.QApplication.UnicodeUTF8))
-        self.groupBox_4.setTitle(QtGui.QApplication.translate("MainWindow", "Destination folder", None, QtGui.QApplication.UnicodeUTF8))
-        self.selectFolderButton.setText(QtGui.QApplication.translate("MainWindow", "Select folder", None, QtGui.QApplication.UnicodeUTF8))
-        self.beginButton.setText(QtGui.QApplication.translate("MainWindow", "Begin", None, QtGui.QApplication.UnicodeUTF8))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Mail attachment downloader", None))
+        self.groupBox.setTitle(_translate("MainWindow", "Server", None))
+        self.serverInput.setText(_translate("MainWindow", "pop.gmail.com", None))
+        self.protocolComboBox.setItemText(0, _translate("MainWindow", "pop3 ssl", None))
+        self.groupBox_2.setTitle(_translate("MainWindow", "Username", None))
+        self.groupBox_3.setTitle(_translate("MainWindow", "Password", None))
+        self.groupBox_4.setTitle(_translate("MainWindow", "Destination folder", None))
+        self.selectFolderButton.setText(_translate("MainWindow", "Select folder", None))
+        self.beginButton.setText(_translate("MainWindow", "Begin", None))
 
 import resources_rc

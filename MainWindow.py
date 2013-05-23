@@ -31,16 +31,16 @@ class MainWindow(QtGui.QMainWindow):
 
 
     def _beginButtonClicked(self):
-        if not self.is_fetching:
-            self.ui.beginButton.setText("Stop")
-            self.ui.beginButton.setDown(True)
-            self.guiDelegate.begin_fetching()
-        else:
+        if self.is_fetching:
             self.ui.beginButton.setText("Begin")
             self.ui.beginButton.setDown(False)
             self.guiDelegate.stop_fetching()
+        else:
+            self.ui.beginButton.setText("Stop")
+            self.ui.beginButton.setDown(True)
+            self.guiDelegate.begin_fetching()
 
-        self.is_fetching = not self.is_fetching
+        self.is_fetching = (not self.is_fetching)
 
 
     def _folderButtonClicked(self):

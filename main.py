@@ -22,7 +22,9 @@ def main():
     guiDelegate.set_main_window(window)
 
     window.show()
-    sys.exit(app.exec_())
+    excode = app.exec_()
+    guiDelegate.exit()
+    sys.exit(excode)
 
 if __name__ == "__main__":
     main()

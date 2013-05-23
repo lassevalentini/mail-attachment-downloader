@@ -35,3 +35,7 @@ class GuiDelegate(object):
             self.maildaemon.stop()
         self.maildaemon = None
         self.main_window.reset()
+
+    def exit(self):
+        if self.maildaemon is not None:
+            self.maildaemon.stop()

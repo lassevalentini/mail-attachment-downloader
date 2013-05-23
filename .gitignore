@@ -36,3 +36,7 @@ nosetests.xml
 
 *.sublime-project
 *.sublime-workspace
+
+*.exe
+*.dll
+*.zip
